@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Calixto AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1226"/>
+      <stop offset="1" stop-color="#2a1a5e"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a5e9fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#dots)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#glow)"/>
+
+  <g transform="translate(50 0)">
+  <!-- fios do canvas ao fundo -->
+  <g fill="none" stroke="#93c5fd" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round">
+    <path d="M760 80 C 900 80, 900 160, 1040 160"/>
+    <path d="M760 240 C 900 240, 900 160, 1040 160"/>
+    <path d="M1040 160 C 1110 160, 1110 100, 1180 100"/>
+  </g>
+  <g fill="#0b1226" stroke="#93c5fd" stroke-opacity="0.7" stroke-width="3">
+    <circle cx="760" cy="80" r="9"/><circle cx="760" cy="240" r="9"/><circle cx="1040" cy="160" r="11"/><circle cx="1180" cy="100" r="8"/>
+  </g>
+  <path d="M1040 148c1 8 4 11 11 12-7 1-10 4-11 12-1-8-4-11-11-12 7-1 10-4 11-12Z" fill="#fde68a"/>
+  </g>
+
+  <!-- logo -->
+  <g transform="translate(80 76)">
+    <rect width="168" height="168" rx="38" fill="url(#tile)"/>
+    <rect x="1.5" y="1.5" width="165" height="165" rx="36.5" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3"/>
+    <g transform="translate(84 84) scale(6.2) translate(-12 -12)" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round">
+      <path d="M16.6 7.4A6.5 6.5 0 1 0 16.6 16.6"/>
+      <circle cx="16.6" cy="7.4" r="2" fill="#ffffff" stroke="none"/>
+      <circle cx="16.6" cy="16.6" r="2" fill="#ffffff" stroke="none"/>
+      <path d="M13 8.6C13.3 10.7 14.3 11.7 16.4 12 14.3 12.3 13.3 13.3 13 15.4 12.7 13.3 11.7 12.3 9.6 12 11.7 11.7 12.7 10.7 13 8.6Z" fill="#fde68a" stroke="none"/>
+    </g>
+  </g>
+
+  <text x="290" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="url(#title)" letter-spacing="-1">Calixto AI</text>
+  <text x="293" y="224" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#c7d2fe">Vários agentes de IA num canvas infinito</text>
+</svg>
